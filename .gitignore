@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.onnx
+*.pb
+
+# Django
+*.log
+.env
+*.env
+*.secret
+
+# Virtualenvs
+venv/
+backend/venv/
+backend/.venv/
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+frontend/.env
+
+# System
+.DS_Store
+
+# TensorFlow binaries
+**/tensorflow/**
+
+# Git LFS exclusions
+*.dylib
+*.so
+*.dll
+*.exe
